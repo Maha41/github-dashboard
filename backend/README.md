@@ -12,5 +12,7 @@ docker-compose exec web aerich init-db
 
 
 Fast API docs
-<img width="1648" alt="Screen Shot 2023-04-04 at 9 53 31 AM" src="https://user-images.githubusercontent.com/32134349/229815137-ac9a3208-2441-4a21-9752-73ea8432cfb5.png">
-<img width="1659" alt="Screen Shot 2023-04-04 at 9 53 40 AM" src="https://user-images.githubusercontent.com/32134349/229815149-5e3de4b4-ab67-4d02-ab52-bfc727fee0d3.png">
+
+<img width="868" alt="Screen Shot 2023-04-10 at 8 37 08 AM" src="https://user-images.githubusercontent.com/32134349/230902739-0cfd2b9a-672f-4198-a82f-4e37cb6957ac.png">
+<img width="1706" alt="Screen Shot 2023-04-10 at 8 38 02 AM" src="https://user-images.githubusercontent.com/32134349/230902828-56fbf957-d9d1-4232-b05f-4f3c439b6d57.png">
+```

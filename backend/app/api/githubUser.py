@@ -19,10 +19,16 @@ async def read_all_repos() -> List[GithubUserSchema]:
     return dUser
 
 
-@router.get("/{id}/", response_model=GithubUserSchema)
-async def read_repos(id: int = Path(..., gt=0)) -> GithubUserSchema:
-    repo = await crud.get(id)
+@router.get("/{userName}/repos", response_model=List[GithubUserSchema])
+async def read_repos(userName: str) -> GithubUserSchema:
+    repo = await crud.get(userName)
     if not repo:
         raise HTTPException(status_code=404, detail="Repo not found")
 
     return repo
+
+
+@router.get("/users", response_model=List[str])
+async def read_user_repos() -> List[str]:
+    users = await crud.getUsers()
+    return users

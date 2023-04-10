@@ -10,5 +10,8 @@ The React frontend would be built using the Chakra UI framework, a component lib
 
 Overall, a GitHub dashboard React Chakra UI app pulling data from PostgreSQL using Tortoise ORM, Pydantic, and FastAPI would be a powerful and versatile tool for developers and project managers to track project progress, identify bottlenecks and issues, and make data-driven decisions.
 
-<img width="1705" alt="Screen Shot 2023-04-04 at 8 56 34 AM" src="https://user-images.githubusercontent.com/32134349/229814136-9b1efcd9-42d2-4408-8793-91940f98bbf3.png">
-<img width="1705" alt="Screen Shot 2023-04-04 at 8 56 41 AM" src="https://user-images.githubusercontent.com/32134349/229814157-22468e8c-110d-4898-bf4d-5c1c6331a28c.png">
+
+![Screen Shot 2023-04-10 at 3 12 50 AM](https://user-images.githubusercontent.com/32134349/230902576-a889f6ed-536c-436f-a84b-4fbd451ed723.png)
+
+
+![Screen Shot 2023-04-10 at 3 12 40 AM](https://user-images.githubusercontent.com/32134349/230902549-7c2f5b27-18cc-491d-936e-0c06aec78c51.png)

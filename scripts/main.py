@@ -38,8 +38,7 @@ def store_repo_data(username, repos):
                 )
 
 
-# Main function to retrieve and store repository data for a given GitHub username
-def main(username):
+def getUserData(username):
     repos = get_public_repos(username)
     if repos:
         store_repo_data(username, repos)
@@ -48,5 +47,11 @@ def main(username):
         print("Failed to retrieve repository data.")
 
 
+# Main function to retrieve and store repository data for a given GitHub username
+def main():
+    getUserData("Maha41")
+    getUserData("torvalds")
+
+
 if __name__ == "__main__":
-    main("Maha41")
+    main()
