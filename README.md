@@ -9,3 +9,9 @@ The FastAPI backend would be responsible for serving the React frontend with the
 The React frontend would be built using the Chakra UI framework, a component library that provides a set of reusable, composable, and customizable UI elements. The dashboard would consist of multiple pages, each displaying different data extracted from the GitHub API. The pages would be designed to be intuitive and easy-to-use, with clear and concise visualizations of the data.
 
 Overall, a GitHub dashboard React Chakra UI app pulling data from PostgreSQL using Tortoise ORM, Pydantic, and FastAPI would be a powerful and versatile tool for developers and project managers to track project progress, identify bottlenecks and issues, and make data-driven decisions.
+
+
+![Screen Shot 2023-04-10 at 3 12 50 AM](https://user-images.githubusercontent.com/32134349/230902576-a889f6ed-536c-436f-a84b-4fbd451ed723.png)
+
+
+![Screen Shot 2023-04-10 at 3 12 40 AM](https://user-images.githubusercontent.com/32134349/230902549-7c2f5b27-18cc-491d-936e-0c06aec78c51.png)
