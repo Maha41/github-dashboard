@@ -9,7 +9,6 @@ async def upgrade(db: BaseDBAsyncClient) -> str:
     "repository" TEXT NOT NULL,
     "scraped_at" TIMESTAMPTZ NOT NULL  DEFAULT CURRENT_TIMESTAMP
 );
-
 CREATE TABLE IF NOT EXISTS "aerich" (
     "id" SERIAL NOT NULL PRIMARY KEY,
     "version" VARCHAR(255) NOT NULL,

@@ -16,7 +16,7 @@ function App() {
   return (
     <ChakraProvider>
       <Header />
-      <Repos />  {/* new */}
+      <Repos /> 
     </ChakraProvider>
   )
 }
